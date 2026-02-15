@@ -1,0 +1,51 @@
+/* Brown Cozy Theme */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5e6d3; /* light beige */
+    color: #4b2e2e; /* dark brown text */
+}
+
+header {
+    background-color: #6f4e37; /* coffee brown */
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.container {
+    width: 80%;
+    margin: 40px auto;
+}
+
+.card {
+    background-color: #fff3e6; /* soft cream */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(75, 46, 46, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+h2 {
+    margin-top: 0;
+    color: #6f4e37;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #6f4e37;
+    color: white;
+    margin-top: 40px;
+}
